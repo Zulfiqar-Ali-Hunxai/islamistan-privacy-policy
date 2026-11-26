@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Islamistan Privacy Policy. Learn how Islamistan handles location information, advertising, and user privacy.">
+    <meta name="description" content="Islamistan Privacy Policy. Learn how Islamistan handles location information, notifications, advertising, and user privacy.">
     <meta name="theme-color" content="#3157D5">
 
     <title>Privacy Policy - Islamistan</title>
@@ -87,6 +86,30 @@
             margin-bottom: 25px;
         }
 
+        .table-wrap {
+            overflow-x: auto;
+            margin-bottom: 18px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border: 1px solid #dbe3f5;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f0f4ff;
+            color: #3157D5;
+        }
+
         .contact {
             background: #f0f8ff;
             padding: 20px;
@@ -132,7 +155,7 @@
 <main class="container">
 
     <div class="updated">
-        <strong>Last Updated:</strong> November 25, 2026
+        <strong>Last Updated:</strong> November 26, 2026
     </div>
 
     <p>
@@ -157,8 +180,9 @@
     <p>
         The application includes features such as the Holy Quran,
         prayer times, Qibla direction, Hijri calendar, Islamic books,
-        Hadith collections, Duas, Ziyarat, Tasbih counter, and other
-        Islamic educational resources.
+        Hadith collections, Duas, Ziyarat, Tasbih counter, prayer
+        notifications and reminders, and other Islamic educational
+        resources.
     </p>
 
     <h2>2. Information We Collect</h2>
@@ -166,19 +190,22 @@
     <p>
         Islamistan does not require users to create an account to access
         its main features. We do not operate our own Firebase or Google
-        Analytics services.
+        Analytics services, and we do not ask you for your name, email
+        address, or phone number in order to use the app.
     </p>
 
     <p>
         However, certain application features and third-party services
-        may process information as described below.
+        may process information as described in this policy, including
+        location information (Section 3), advertising-related
+        information (Section 7), and notification settings (Section 5).
     </p>
 
     <h2>3. Location Information</h2>
 
     <p>
-        Islamistan may request access to your device location when you
-        use location-based features.
+        Islamistan may request access to your device location (precise
+        or approximate) when you use location-based features.
     </p>
 
     <p>Location information is used for purposes such as:</p>
@@ -191,7 +218,9 @@
 
     <p>
         Location permission is requested through your device settings.
-        You can allow or deny this permission at any time.
+        You can allow or deny this permission at any time. Islamistan
+        requests location access only while you are using the app
+        and does not request background location access.
     </p>
 
     <p>
@@ -207,7 +236,79 @@
         We do not use device location solely for advertising.
     </p>
 
-    <h2>4. Google AdMob and Advertising</h2>
+    <h2>4. App Permissions</h2>
+
+    <p>
+        Islamistan requests the following Android permissions to provide
+        its features. You can review or change permissions at any time
+        in your device settings.
+    </p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Why we use it</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Internet and network state</td>
+                    <td>To load online content, show advertisements, and check whether your device is connected.</td>
+                </tr>
+                <tr>
+                    <td>Precise and approximate location</td>
+                    <td>To calculate prayer times and support the Qibla direction.</td>
+                </tr>
+                <tr>
+                    <td>Notifications</td>
+                    <td>To show prayer time alerts and reminders that you enable.</td>
+                </tr>
+                <tr>
+                    <td>Run at device startup</td>
+                    <td>To restore your scheduled notifications after your device restarts.</td>
+                </tr>
+                <tr>
+                    <td>Vibration</td>
+                    <td>To vibrate your device for notifications and the Tasbih counter, where applicable.</td>
+                </tr>
+                <tr>
+                    <td>Foreground service (data sync)</td>
+                    <td>To complete background tasks, such as updating or syncing content, reliably while the app works.</td>
+                </tr>
+                <tr>
+                    <td>Advertising ID</td>
+                    <td>Used by Google AdMob for advertising delivery and measurement (see Section 7).</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>5. Notifications and Reminders</h2>
+
+    <p>
+        Islamistan may send local notifications such as prayer time
+        alerts and reminders. These notifications are scheduled on your
+        device. You can turn notifications on or off at any time in
+        the app or in your device settings.
+    </p>
+
+    <p>
+        To keep your reminders working, the app may re-schedule them
+        when your device restarts or when the app is updated.
+    </p>
+
+    <h2>6. Background Processing</h2>
+
+    <p>
+        Islamistan may run limited background tasks, such as syncing
+        or updating content, using Android's standard background work
+        and foreground service features. These tasks are used only to
+        support app functionality and are not used to track you.
+    </p>
+
+    <h2>7. Google AdMob and Advertising</h2>
 
     <p>
         Islamistan uses Google AdMob to display advertisements.
@@ -259,7 +360,7 @@
         </li>
     </ul>
 
-    <h2>5. Firebase and Google Analytics</h2>
+    <h2>8. Firebase and Google Analytics</h2>
 
     <p>
         Islamistan does not currently use Firebase services or
@@ -273,7 +374,7 @@
         features.
     </p>
 
-    <h2>6. How We Use Information</h2>
+    <h2>9. How We Use Information</h2>
 
     <p>Information processed through the application may be used to:</p>
 
@@ -281,12 +382,13 @@
         <li>Provide location-based Islamic features.</li>
         <li>Calculate prayer times based on location.</li>
         <li>Support the Qibla direction feature.</li>
+        <li>Schedule and deliver prayer notifications and reminders.</li>
         <li>Display advertisements through Google AdMob.</li>
         <li>Maintain the functionality and security of the application.</li>
         <li>Improve the overall user experience.</li>
     </ul>
 
-    <h2>7. Third-Party Services</h2>
+    <h2>10. Third-Party Services</h2>
 
     <p>
         Islamistan may use third-party services to provide certain
@@ -304,7 +406,15 @@
         third-party service providers.
     </p>
 
-    <h2>8. Data Security</h2>
+    <h2>11. Data Sharing</h2>
+
+    <p>
+        We do not sell your personal information. Information may be
+        processed by third-party services such as Google AdMob, as
+        described in this policy, or disclosed if required by law.
+    </p>
+
+    <h2>12. Data Security</h2>
 
     <p>
         We take reasonable steps to protect information processed
@@ -322,7 +432,7 @@
         can be guaranteed to be completely secure.
     </p>
 
-    <h2>9. Data Retention and Deletion</h2>
+    <h2>13. Data Retention and Deletion</h2>
 
     <p>
         Islamistan does not maintain a Firebase-based user account
@@ -337,9 +447,11 @@
     </p>
 
     <p>
-        Users can revoke location permission through their device
-        settings. They can also manage advertising preferences
-        through the available Android or Google settings.
+        Settings and preferences stored on your device are removed
+        when you clear the app's data or uninstall the app. You can
+        revoke location and notification permissions through your device
+        settings, and manage advertising preferences through the
+        available Android or Google settings.
     </p>
 
     <p>
@@ -347,7 +459,7 @@
         you can contact us using the email address provided below.
     </p>
 
-    <h2>10. Children's Privacy</h2>
+    <h2>14. Children's Privacy</h2>
 
     <p>
         Islamistan is an Islamic educational and informational
@@ -368,18 +480,19 @@
         audience and applicable requirements.
     </p>
 
-    <h2>11. Your Privacy Choices</h2>
+    <h2>15. Your Privacy Choices</h2>
 
     <p>You can control certain information and permissions by:</p>
 
     <ul>
         <li>Managing location permissions in your device settings.</li>
+        <li>Managing notification permissions in your device settings.</li>
         <li>Managing your advertising ID through Android settings.</li>
         <li>Reviewing Google's advertising and privacy settings.</li>
         <li>Contacting us with privacy-related questions or requests.</li>
     </ul>
 
-    <h2>12. Changes to This Privacy Policy</h2>
+    <h2>16. Changes to This Privacy Policy</h2>
 
     <p>
         We may update this Privacy Policy from time to time to reflect
@@ -396,7 +509,7 @@
         We encourage users to review this page periodically.
     </p>
 
-    <h2>13. Contact Us</h2>
+    <h2>17. Contact Us</h2>
 
     <p>
         If you have any questions, concerns, or requests regarding
